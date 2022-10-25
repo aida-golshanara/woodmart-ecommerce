@@ -1,0 +1,32 @@
+// scss-docs-start import-stack
+// Configuration
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/utilities";
+
+// Layout & components
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+//@import "bootstrap/carousel";
+//@import "bootstrap/type";
+@import "bootstrap/containers";
+@import "bootstrap/grid";
+//@import "bootstrap/buttons";
+//@import "bootstrap/nav";
+//@import "bootstrap/navbar";
+@import "bootstrap/toasts";
+
+
+// Helpers
+//@import "helpers";
+
+// Utilities
+@import "bootstrap/utilities/api";
+// scss-docs-end import-stacks
+
+//@import "customVariables";
+
+@import "style";
+
+@import "owlSlide";

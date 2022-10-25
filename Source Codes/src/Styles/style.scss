@@ -1,0 +1,107 @@
+body{
+  overflow-x: hidden !important;
+  font-size: 1em;
+  background:#fff;
+}
+
+.horizontalMenu{
+  width: auto;
+  display: inline-block;
+  li{
+    margin: 0 2px;
+    padding: 0 2px;
+    display: inline-block;
+    float: left;
+  }
+}
+
+.verticalMenu{
+
+}
+
+.img-responsive{
+  height: 100%;
+  width: 100%;
+}
+
+.text-left{text-align: left}
+
+.text-right{text-align: right}
+
+
+.sectionTitle{
+  h2{
+    border-bottom: 2px solid #ddd;
+    position: relative;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: 600;
+    span{
+      content: "";
+      width: auto;
+      display: inline-block;
+      position: absolute;
+      bottom: -2px;
+      left: 0px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #459867;
+    }
+  }
+}
+
+.font-bold{
+  font-weight: 600;
+}
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+
+
+@font-face {font-family: "woodmart-font";
+  src: url("/public/assets/fonts/woodmart/woodmart-font.eot"); /* IE9*/
+  src: url("/public/assets/fonts/woodmart/woodmart-font.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("/public/assets/fonts/woodmart/woodmart-font.woff2") format("woff2"), /* chrome、firefox */
+  url("/public/assets/fonts/woodmart/woodmart-font.woff") format("woff"), /* chrome、firefox */
+  url("/public/assets/fonts/woodmart/woodmart-font.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("/public/assets/fonts/woodmart/woodmart-font.svg#woodmart-font") format("svg"); /* iOS 4.1- */
+}
+
+
+$blue: rgb(100, 155, 184);
+
+.bgBlue{
+  background: $blue;
+}
+
+.bgGray{
+  background-color: #f7f7f7 !important;
+}
+
+.bgBrown{
+  background-color: #d8a68c;
+}
+
+
+
+.ico {
+  font-style: normal;
+  display:inline-block;
+  vertical-align:middle;
+  font-family:"woodmart-font"
+}
+
+@media (min-width: 1400px){
+  .container {
+    max-width: 1360px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+  .container {
+    max-width: 100% !important;
+  }
+}
+

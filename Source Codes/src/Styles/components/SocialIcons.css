@@ -1,0 +1,51 @@
+.socialIcons ul li a i {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  line-height: 30px;
+  text-align: center;
+  font-style: normal;
+  border: 2px solid #000;
+}
+.socialIcons ul li a i:before {
+  content: "";
+  position: relative;
+  line-height: 30px;
+  text-align: center;
+  font-style: normal;
+  top: 0px;
+  padding-bottom: 5px;
+}
+.socialIcons .icoFb:before {
+  content: "\f180";
+}
+.socialIcons .icoTw:before {
+  content: "\f154";
+}
+.socialIcons .icoPin:before {
+  content: "\f156";
+}
+.socialIcons .icoLink:before {
+  content: "\f158";
+}
+.socialIcons .icoTel:before {
+  content: "\f179";
+}
+
+.socialIcons.gray i {
+  border-color: #ccc !important;
+}
+.socialIcons.gray i:before {
+  color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.socialIcons.white i {
+  border-color: #fff !important;
+}
+.socialIcons.white i:before {
+  color: #fff !important;
+}
+
+/*# sourceMappingURL=SocialIcons.css.map */

@@ -1,0 +1,20 @@
+#mostPopular ul {
+  padding: 0;
+}
+#mostPopular ul li {
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+  list-style: none;
+}
+#mostPopular ul li .title {
+  font-weight: 600;
+  font-size: 1em;
+}
+#mostPopular ul li .price {
+  color: #198754;
+}
+#mostPopular ul li:last-child {
+  border-bottom: none;
+}
+
+/*# sourceMappingURL=MostPopular.css.map */

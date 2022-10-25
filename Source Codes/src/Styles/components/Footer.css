@@ -1,0 +1,135 @@
+#footer .socialNetworks i {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 50%;
+  color: #fff;
+  position: relative;
+  line-height: 30px;
+  text-align: center;
+  font-style: normal;
+}
+#footer .ico-fb {
+  background: #365493;
+}
+#footer .ico-fb::before {
+  content: "\f180";
+}
+#footer .ico-tw {
+  background: #3CF;
+}
+#footer .ico-tw:before {
+  content: "\f154";
+}
+#footer .ico-pin {
+  background: #CB2027;
+}
+#footer .ico-pin:before {
+  content: "\f156";
+}
+#footer .ico-linkedin {
+  background: #0274B3;
+}
+#footer .ico-linkedin:before {
+  content: "\f158";
+}
+#footer .ico-telegram {
+  background: #37AEE2;
+}
+#footer .ico-telegram:before {
+  content: "\f179";
+}
+#footer .feicon {
+  background-size: 100% 100% !important;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+}
+#footer .freeShipping {
+  background: url("/public/img/freeShipping.svg");
+}
+#footer .onlinePayment {
+  background: url("/public/img/onlinePayment.svg");
+}
+#footer .support {
+  background: url("/public/img/support.svg");
+}
+#footer .safe {
+  background: url("/public/img/safe.svg");
+}
+#footer .freeReturns {
+  background: url("/public/img/freeReturns.svg");
+}
+#footer .storeBanner img {
+  max-width: 180px !important;
+}
+#footer .newsletter {
+  min-height: 40px;
+}
+#footer .newsletter input {
+  border: 1px solid #eee;
+  margin-right: 5px;
+  height: 100%;
+  padding-left: 10px;
+  min-width: 70%;
+}
+#footer .newsletter button {
+  background: #198754;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 0.9em;
+  height: 100%;
+  min-width: 90px;
+}
+#footer #feturesShop {
+  background: #439665 !important;
+  color: #fff;
+  padding-top: 35px !important;
+}
+#footer #feturesShop h4 {
+  font-size: 1em !important;
+  font-weight: 600;
+}
+#footer #feturesShop .item {
+  min-width: 200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+#footer #feturesShop .item span {
+  font-size: 0.75em !important;
+}
+#footer #footerBody {
+  padding: 20px 0;
+}
+#footer #footerBody .widgetTitle {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 0.92em;
+}
+#footer #footerBody .socialNetworks {
+  list-style: none;
+}
+#footer #footerBody .subFooterMenu {
+  padding: 0;
+  list-style: none !important;
+  line-height: 35px;
+}
+#footer #footerBody .subFooterMenu li a {
+  list-style: none;
+  text-decoration: none;
+  color: #888;
+  font-size: 0.9em;
+}
+#footer #footerBody img {
+  max-width: 300px;
+}
+#footer #footerBody #copyRight {
+  padding: 20px 0;
+  font-size: 0.8em;
+}
+
+/*# sourceMappingURL=Footer.css.map */

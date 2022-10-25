@@ -1,0 +1,151 @@
+#footer{
+
+  .socialNetworks{
+    i{
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+      border-radius: 50%;
+      color: #fff;
+      position: relative;
+      line-height: 30px;
+      text-align: center;
+      font-style: normal;
+    }
+  }
+
+  .ico-fb{
+    background: #365493;
+    &::before{content: "\f180";}
+  }
+
+  .ico-tw{
+    background: #3CF;
+    &:before{content: "\f154";}
+  }
+
+  .ico-pin{
+    background: #CB2027;
+    &:before{content: "\f156";}
+  }
+
+  .ico-linkedin{
+    background: #0274B3;
+    &:before{content: "\f158";}
+  }
+
+  .ico-telegram{
+    background: #37AEE2;
+    &:before{content: "\f179";}
+  }
+
+
+  .feicon{
+    background-size: 100% 100% !important;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+  }
+
+  .freeShipping{
+    background: url('/public/img/freeShipping.svg');
+  }
+
+  .onlinePayment{
+    background: url('/public/img/onlinePayment.svg');
+  }
+
+  .support{
+    background: url('/public/img/support.svg');
+  }
+
+  .safe{
+    background: url('/public/img/safe.svg');
+  }
+
+  .freeReturns{
+    background: url('/public/img/freeReturns.svg');
+  }
+
+  .storeBanner{
+    img{
+      max-width: 180px !important;
+    }
+  }
+
+  .newsletter{
+    min-height: 40px;
+    input{
+      border: 1px solid #eee;
+      margin-right: 5px;
+      height: 100%;
+      padding-left: 10px;
+      min-width: 70%;
+    }
+    button{
+      background: #198754;
+      color: #fff;
+      outline: none;
+      border: none;
+      font-size: 0.9em;
+      height: 100%;
+      min-width: 90px;
+    }
+  }
+
+  #feturesShop {
+    background: #439665 !important;
+    color: #fff;
+    padding-top: 35px !important;
+
+    h4{font-size: 1em !important;font-weight: 600}
+
+    .item {
+      min-width: 200px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-bottom: 20px;
+      span{
+        font-size: 0.75em !important;
+      }
+    }
+  }
+
+    #footerBody{
+      padding: 20px 0;
+      .widgetTitle{
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-size:0.92em
+      }
+
+      .socialNetworks{
+        list-style: none;
+      }
+
+      .subFooterMenu{
+        padding: 0;
+        list-style: none !important;
+        line-height: 35px;
+        li a{
+          list-style: none;
+          text-decoration: none;
+          color: #888;
+          font-size: 0.9em;
+        }
+      }
+
+      img{
+        max-width: 300px;
+      }
+
+      #copyRight{
+        padding: 20px 0;
+        font-size: 0.8em;
+      }
+
+    }
+
+}

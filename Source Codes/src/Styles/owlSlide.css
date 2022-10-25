@@ -1,0 +1,48 @@
+/* Owl */
+.owl-nav > * {
+  position: absolute;
+  top: 44%;
+  font-size: 45px !important;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.36) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  max-width: 35px;
+  max-height: 35px;
+}
+
+.owl-nav > * > * {
+  margin-top: -3px;
+}
+
+.owl-prev {
+  transform: translate(30%, 100%);
+  right: 20px;
+}
+
+.owl-prev > * {
+  margin-right: -2px;
+}
+
+.owl-next {
+  transform: translate(-30%, 100%);
+  left: 20px;
+}
+
+.owl-next > * {
+  margin-left: -2px;
+}
+
+.owl-nav button {
+  transition: opacity var(--transition);
+}
+
+.owl-nav button.disabled {
+  opacity: 0;
+}
+
+/*# sourceMappingURL=owlSlide.css.map */

@@ -1,0 +1,199 @@
+#top .itemIcon {
+  background-size: 100% 100% !important;
+  width: 33px;
+  height: 33px;
+  margin-top: 5px;
+  margin-right: 10px;
+  display: inline-block;
+  float: left;
+}
+#top .supportIcon {
+  background: url("/public/img/supportIcon.svg");
+}
+#top .basketIcon {
+  background: url("/public/img/basketIcon.svg");
+}
+#top .itemBox {
+  display: inline-block;
+}
+#top .itemBox.basket {
+  padding-left: 10px;
+  border-left: 1px solid #eee;
+}
+#top .itemBox .itemHead {
+  color: #449766;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+#top .itemBox .itemBody {
+  color: #7a7a7a;
+  font-size: 0.8em;
+}
+#top .browseCategory {
+  background: #449866;
+  color: #fff;
+  padding: 10px 15px;
+  text-align: left;
+  font-weight: bold;
+  position: relative;
+}
+#top .browseCategory:before {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  content: "\f15a";
+  font-family: "woodmart-font";
+  vertical-align: middle;
+  margin-right: 10px;
+}
+#top .browseCategory:after {
+  content: "\f129";
+  position: absolute;
+  right: 20px;
+  top: 18px;
+  font-family: "woodmart-font";
+  font-size: 0.7em;
+  color: #fff !important;
+}
+#top .categoryMenu ul {
+  border: 1px solid #ddd;
+  padding: 0 !important;
+  position: relative;
+}
+#top .categoryMenu ul li {
+  text-align: left;
+  list-style: none;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+#top .categoryMenu ul li:hover {
+  background: #ddd;
+}
+#top .categoryMenu ul li.active:after {
+  content: "\f113";
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  font-family: "woodmart-font";
+  font-size: 0.7em;
+  color: #888;
+}
+#top .categoryMenu ul li .ico {
+  height: 18px;
+  width: 18px;
+  display: inline-block;
+  margin: 0 15px;
+  background-size: 100% 100% !important;
+}
+#top .categoryMenu ul li .ico01 {
+  background: url("/public/img/browsCat01.svg");
+}
+#top .categoryMenu ul li .ico02 {
+  background: url("/public/img/browsCat02.svg");
+}
+#top .categoryMenu ul li .ico03 {
+  background: url("/public/img/browsCat03.svg");
+}
+#top .categoryMenu ul li .ico04 {
+  background: url("/public/img/browsCat04.svg");
+}
+#top .categoryMenu ul li .ico05 {
+  background: url("/public/img/browsCat05.svg");
+}
+#top .categoryMenu ul li .ico06 {
+  background: url("/public/img/browsCat06.svg");
+}
+#top .categoryMenu ul li .ico07 {
+  background: url("/public/img/browsCat07.svg");
+}
+#top .categoryMenu ul li .ico08 {
+  background: url("/public/img/browsCat08.svg");
+}
+#top .categoryMenu ul li .ico09 {
+  background: url("/public/img/browsCat09.svg");
+}
+#top .categoryMenu ul li .ico10 {
+  background: url("/public/img/browsCat10.svg");
+}
+#top .categoryMenu ul li .ico11 {
+  background: url("/public/img/browsCat11.svg");
+}
+#top .categoryMenu ul li a {
+  color: #333;
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 18px;
+  font-size: 0.9em;
+}
+#top .searchBox {
+  padding: 0px !important;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+  min-height: 40px;
+  line-height: 35px;
+}
+#top .searchBox #searchTxt {
+  border: none !important;
+  width: 65% !important;
+  text-align: left;
+  padding-left: 10px;
+  outline-style: none;
+}
+#top .searchBox .rightSearch {
+  width: 35%;
+  float: right;
+}
+#top .searchBox .rightSearch .searchCategory {
+  appearance: none;
+  border: none;
+  border-left: 1px solid #ddd;
+  background: none !important;
+  outline-style: none;
+  float: left;
+  min-height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+  padding-top: 0px;
+  width: 77%;
+  position: relative;
+}
+#top .searchBox .rightSearch .searchCategory:after {
+  font-family: "woodmart-font";
+  display: inline-block;
+  margin-left: 8px;
+  font-weight: 600;
+  font-size: 8px;
+  content: "\f129" !important;
+  color: #333;
+  position: absolute;
+}
+#top .searchBox .rightSearch .searchBotton {
+  background: #439765;
+  width: 50px;
+  display: inline-block;
+  float: right;
+  outline: none;
+  border: none;
+}
+#top .searchBox .rightSearch .searchBotton:before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: relative;
+  display: inline-block;
+  background: url("/public/img/searchIcon.svg");
+  top: 5px;
+}
+
+@media (max-width: 768px) {
+  #searchTxt {
+    width: 80%;
+  }
+
+  .searchCategory {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=Top.css.map */

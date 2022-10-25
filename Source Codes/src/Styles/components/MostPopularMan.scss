@@ -1,0 +1,173 @@
+#mostPopularMan {
+
+  .banner{
+    position: relative;
+    overflow: hidden;
+    --button-space: 15px;
+    --button-size: 28px;
+    background-color: #0a53be;
+    .imgWraper{
+      height:100%;
+      .inbox{
+        transition: transform 0.5s cubic-bezier(0,0,.44,1.18);
+        background-position: center;
+        object-position: center;
+        height:100%;
+        &:hover{
+          transform: scale(1.09);
+        }
+        .imgBanner{
+          width: 100%;
+          max-width: 100%;
+          border: 0;
+          vertical-align: middle;
+          height: 100%;
+        }
+      }
+    }
+    .cBanner{
+      position: absolute;
+      width: 60%;
+      color: #fff;
+      bottom: 0px;
+      padding: 20px;
+      .title{
+        font-size: 2em;
+      }
+      .readMore{
+        font-size: 0.8em;
+        font-weight: bold;
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 5px;
+        display: inline-block;
+        a{
+          color: #fff !important;
+          &:hover{color: #666 !important;}
+        }
+      }
+    }
+  }
+
+
+  .items{
+
+    h3{font-weight: bold;text-align: left}
+
+    .itemList{
+      border-bottom: 1px solid #eee;
+      border-right: 1px solid #eee;
+      padding: 0;
+      margin: 0;
+      .item {
+        width: 20%;
+        display: inline-block !important;
+        float: right;
+        border: 1px solid rgba(0, 0, 0, 0.106);
+        padding: 5px;
+        text-align: center;
+        border-right: none;
+        border-bottom: none;
+        line-height: 39px;
+        position: relative;
+
+        .discount{
+          position: absolute;
+          left: 10px;
+          background: #439665;
+          color: #fff;
+          padding: 0 10px;
+          height: auto;
+          line-height: 30px;
+          display: inline-block;
+          font-size:0.9em
+        }
+
+        .label{
+          position: absolute;
+          left: 10px;
+          background: #439665;
+          color: #fff;
+          padding: 0 10px;
+          height: auto;
+          line-height: 30px;
+          display: inline-block;
+          font-size:0.9em
+        }
+
+        h4{font-size: 1em;font-weight: bold}
+        .categoryTitle{color: #a5a5a5}
+        .price{color: #439766}
+
+        img{
+          width:100%;
+          height:auto;
+          max-height:100%;
+        }
+
+        &:hover .infoMenu{
+          visibility: visible;
+          display: inline-block;
+          transform: translateY(0) translateZ(0);
+          opacity: 1;
+        }
+
+        .infoMenu{
+          visibility: hidden;
+          transform: translateY(25px) translateZ(0);
+          position: absolute;
+          bottom: 45px;
+          left: 0px;
+          opacity: 0;
+          transition: opacity .3s ease,visibility .3s ease,transform .3s ease;
+          text-align: center;
+          width: 100%;
+          ul{
+            width: auto;
+            display: inline-block;
+            padding: 0;
+            background: #f8f8f8;
+            box-shadow: 2px 2px #ddd;
+            li{
+              list-style: none;
+              width: 35px;
+              height: 35px;
+              float: right;
+              margin:0 2px;
+            }
+          }
+          a{
+            transition: all .25s ease;
+          }
+          .ico{
+            display: inline-block;
+            position: relative;
+            padding-bottom: 5px;
+            &:before{
+              font-style: normal;
+              top: 0px;
+              position: relative;
+            }
+            &.addIcon:before{content: "\f123";}
+            &.quickIcon:before{content: "\f130";}
+            &.favIcon:before{content: "\f106";}
+          }
+        }
+
+      }
+    }
+
+  }
+
+
+
+
+}
+
+@media(max-width: 768px){
+  #mostPopularMan{
+    .item{
+      width: 50% !important;
+    }
+  }
+}
+

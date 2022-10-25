@@ -1,0 +1,146 @@
+#mostPopularMan .banner {
+  position: relative;
+  overflow: hidden;
+  --button-space: 15px;
+  --button-size: 28px;
+}
+#mostPopularMan .banner .imgWraper {
+  height: 100%;
+}
+#mostPopularMan .banner .imgWraper .inbox {
+  transition: transform 0.5s cubic-bezier(0, 0, 0.44, 1.18);
+  background-position: center;
+  object-position: center;
+  height: 100%;
+}
+#mostPopularMan .banner .imgWraper .inbox:hover {
+  transform: scale(1.09);
+}
+#mostPopularMan .banner .imgWraper .inbox .imgBanner {
+  width: 100%;
+  max-width: 100%;
+  border: 0;
+  vertical-align: middle;
+  height: 100%;
+}
+#mostPopularMan .banner .cBanner {
+  position: absolute;
+  width: 60%;
+  color: #fff;
+  bottom: 0px;
+  padding: 20px;
+}
+#mostPopularMan .banner .cBanner .title {
+  font-size: 2em;
+}
+#mostPopularMan .banner .cBanner .readMore {
+  font-size: 0.8em;
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+#mostPopularMan .banner .cBanner .readMore a {
+  color: #fff !important;
+}
+#mostPopularMan .banner .cBanner .readMore a:hover {
+  color: #666 !important;
+}
+#mostPopularMan .items h3 {
+  font-weight: bold;
+  text-align: left;
+}
+#mostPopularMan .items .itemList {
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  padding: 0;
+  margin: 0;
+}
+#mostPopularMan .items .itemList .item {
+  width: 20%;
+  display: inline-block !important;
+  float: right;
+  border: 1px solid rgba(0, 0, 0, 0.106);
+  padding: 5px;
+  text-align: center;
+  border-right: none;
+  border-bottom: none;
+  line-height: 39px;
+  position: relative;
+}
+#mostPopularMan .items .itemList .item h4 {
+  font-size: 1em;
+  font-weight: bold;
+}
+#mostPopularMan .items .itemList .item .categoryTitle {
+  color: #a5a5a5;
+}
+#mostPopularMan .items .itemList .item .price {
+  color: #439766;
+}
+#mostPopularMan .items .itemList .item img {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+#mostPopularMan .items .itemList .item:hover .infoMenu {
+  visibility: visible;
+  display: inline-block;
+  transform: translateY(0) translateZ(0);
+  opacity: 1;
+}
+#mostPopularMan .items .itemList .item .infoMenu {
+  visibility: hidden;
+  transform: translateY(25px) translateZ(0);
+  position: absolute;
+  bottom: 45px;
+  left: 0px;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+  text-align: center;
+  width: 100%;
+}
+#mostPopularMan .items .itemList .item .infoMenu ul {
+  width: auto;
+  display: inline-block;
+  padding: 0;
+  background: #f8f8f8;
+  box-shadow: 2px 2px #ddd;
+}
+#mostPopularMan .items .itemList .item .infoMenu ul li {
+  list-style: none;
+  width: 35px;
+  height: 35px;
+  float: right;
+  margin: 0 2px;
+}
+#mostPopularMan .items .itemList .item .infoMenu a {
+  transition: all 0.25s ease;
+}
+#mostPopularMan .items .itemList .item .infoMenu .ico {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 5px;
+}
+#mostPopularMan .items .itemList .item .infoMenu .ico:before {
+  font-style: normal;
+  top: 0px;
+  position: relative;
+}
+#mostPopularMan .items .itemList .item .infoMenu .ico.addIcon:before {
+  content: "\f123";
+}
+#mostPopularMan .items .itemList .item .infoMenu .ico.quickIcon:before {
+  content: "\f130";
+}
+#mostPopularMan .items .itemList .item .infoMenu .ico.favIcon:before {
+  content: "\f106";
+}
+
+@media (max-width: 768px) {
+  #mostPopularMan .item {
+    width: 50% !important;
+  }
+}
+
+/*# sourceMappingURL=MostPopularWoman.css.map */

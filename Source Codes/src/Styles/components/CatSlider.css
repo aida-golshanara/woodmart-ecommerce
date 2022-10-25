@@ -1,0 +1,21 @@
+#catSlider .title {
+  margin-top: 20px;
+  color: #333;
+}
+#catSlider h3 {
+  font-size: 1.1em !important;
+  font-weight: 600;
+}
+#catSlider .catTitle {
+  color: #888;
+}
+#catSlider img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s cubic-bezier(0, 0, 0.44, 1.18);
+}
+#catSlider img:hover {
+  transform: scale3d(1.1, 1.1, 1);
+}
+
+/*# sourceMappingURL=CatSlider.css.map */

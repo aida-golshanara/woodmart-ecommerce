@@ -1,0 +1,126 @@
+#Header{
+  padding-top: 20px;
+  min-height: 90px;
+
+  .desktopView.fixed{
+    position: fixed !important;
+    z-index: 99999999 !important;
+    background: #fff !important;
+    top: 0 !important;
+    width: 100%;
+  }
+
+  .MainMenu{
+    ul{
+      li{
+        padding: 0 10px;
+        float: left;
+        a{
+          font-size: 0.95em;
+          text-decoration: none;
+          color: #000;
+          font-weight: 600;
+          position: relative;
+          &:after{
+            margin-left: 4px;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 50%;
+            content: "\f129";
+            font-family: "woodmart-font";
+          }
+          span{
+            &:after{
+              content: '';
+              position: absolute;
+              top: 100%;
+              left: 0;
+              width: 0;
+              height: 2px;
+              transition: width 0.4s cubic-bezier(.175,.885,.32,1.15);
+            }
+          }
+          &:hover{
+            span{
+              &:after{
+                content: '';
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                height: 2px;
+                transition: width 0.4s cubic-bezier(.175,.885,.32,1.15);
+                background-color: #3f9863;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .quickMenu{
+    text-align: right;
+    a{
+      font-size: 0.8em;
+      font-weight: 600;
+      margin: 0 10px 0 0;
+      border-right: 1px solid #ddd;
+      padding-right: 10px;
+      &:last-child{border-right: none}
+      &.active{
+        color: #3f9863;
+      }
+    }
+  }
+  .basket{
+    margin-right: 10px;
+    .basketIcon{
+      margin-right: 10px;
+      position: relative;
+      &:before{content: "\f126";}
+      .count{
+        background: #198754;color: #fff;
+        font-size: 0.6em;
+        position: absolute;
+        top: -5px;
+        right: -9px;
+        z-index: 1;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        text-align: center;
+        letter-spacing: 0;
+        font-weight: 400;
+      }
+    }
+  }
+  .toggleMenu{
+    .toggleMenuIco{
+      cursor: pointer;
+      width: 35px;
+      height: 35px;
+      font-size: 24px;
+      &:before{
+        content: "\f15a";
+      }
+    }
+  }
+
+  .backMobileMenu{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: rgba(210, 210, 210, 0.02);
+    z-index: 8;
+  }
+
+
+}
+
+
+@keyframes width {
+  0%   {width: 0}
+  100% {width: 100%}
+}

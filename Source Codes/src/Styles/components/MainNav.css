@@ -1,0 +1,108 @@
+#mainNav {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0 0;
+  vertical-align: middle;
+  max-height: 45px;
+}
+#mainNav a:hover {
+  color: #888888 !important;
+}
+#mainNav a:hover span {
+  color: #888888 !important;
+}
+#mainNav .account {
+  padding-bottom: 10px;
+  border-left: 1px solid #ddd;
+  margin-left: 10px;
+  color: #000;
+}
+#mainNav .account:hover {
+  color: #888;
+}
+#mainNav .account span {
+  cursor: pointer;
+}
+#mainNav .bannerText {
+  font-size: 0.9em;
+  color: #666;
+}
+#mainNav .ico .count {
+  color: #fff !important;
+}
+#mainNav .mainNavTopMenu {
+  padding-bottom: 10px;
+  text-align: left;
+}
+#mainNav .mainNavTopMenu li {
+  border-right: 1px solid #ddd;
+  padding-right: 10px;
+}
+#mainNav .mainNavTopMenu li a {
+  color: #333 !important;
+  text-decoration: none;
+}
+#mainNav .mainNavTopMenu .icoNewsletter:before {
+  content: "\f132";
+}
+#mainNav .mainNavTopMenu .item {
+  color: #333;
+  text-decoration: none;
+}
+#mainNav .mainNavTopMenu .item:before {
+  content: "";
+  display: inline-block;
+  padding: 0 3px;
+  border-right: 1px solid #ddd;
+}
+#mainNav .compare {
+  margin-right: 10px;
+}
+#mainNav .compare .compareIco {
+  margin-right: 10px;
+  position: relative;
+}
+#mainNav .compare .compareIco:before {
+  content: "\f128";
+}
+#mainNav .compare .compareIco .count {
+  background: #198754;
+  color: #fff;
+  font-size: 0.6em;
+  position: absolute;
+  top: -5px;
+  right: -9px;
+  z-index: 1;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  text-align: center;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+#mainNav .wishList {
+  margin-right: 10px;
+}
+#mainNav .wishList .wishlistIco {
+  margin-right: 10px;
+  position: relative;
+}
+#mainNav .wishList .wishlistIco:before {
+  content: "\f106";
+}
+#mainNav .wishList .wishlistIco .count {
+  background: #198754;
+  color: #fff;
+  font-size: 0.6em;
+  position: absolute;
+  top: -5px;
+  right: -9px;
+  z-index: 1;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  text-align: center;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=MainNav.css.map */

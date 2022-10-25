@@ -1,0 +1,103 @@
+#mainNav{
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0 0;
+  vertical-align: middle;
+  max-height: 45px;
+  a:hover{
+    color: #888888 !important;
+    span{
+      color: #888888 !important;
+    }
+  }
+  .account{
+    padding-bottom: 10px;
+    border-left: 1px solid #ddd;
+    margin-left: 10px;
+    color: #000;
+    &:hover{
+      color: #888;
+    }
+    span{
+      cursor: pointer;
+    }
+  }
+  .bannerText{font-size: 0.9em;color: #666}
+  .wishList{
+
+  }
+  .compare{
+
+  }
+  .ico{
+    .count{
+      color: #fff !important;
+    }
+  }
+  .mainNavTopMenu{
+    padding-bottom: 10px;
+    text-align: left;
+    li{
+      border-right: 1px solid #ddd;
+      padding-right: 10px;
+      a{
+        color: #333 !important;
+        text-decoration: none;
+      }
+    }
+    .icoNewsletter:before{content: "\f132"}
+    .item{
+      color: #333;
+      text-decoration: none;
+      &:before{
+        content: "";
+        display: inline-block;
+        padding: 0 3px;
+        border-right: 1px solid #ddd;
+      }
+    }
+  }
+  .compare{
+    margin-right: 10px;
+    .compareIco{
+      margin-right: 10px;
+      position: relative;
+      &:before{content: "\f128";}
+      .count{
+        background: #198754;color: #fff;
+        font-size: 0.6em;
+        position: absolute;
+        top: -5px;
+        right: -9px;
+        z-index: 1;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        text-align: center;
+        letter-spacing: 0;
+        font-weight: 400;
+      }
+    }
+  }
+  .wishList{
+    margin-right: 10px;
+    .wishlistIco{
+      margin-right: 10px;
+      position: relative;
+      &:before{content: "\f106";}
+      .count{
+        background: #198754;color: #fff;
+        font-size: 0.6em;
+        position: absolute;
+        top: -5px;
+        right: -9px;
+        z-index: 1;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        text-align: center;
+        letter-spacing: 0;
+        font-weight: 400;
+      }
+    }
+  }
+}

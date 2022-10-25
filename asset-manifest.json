@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/woodmart-ecommerce/static/css/main.09a0450f.css",
+    "main.js": "/woodmart-ecommerce/static/js/main.cdc1a0c8.js",
+    "static/js/787.5321f4d1.chunk.js": "/woodmart-ecommerce/static/js/787.5321f4d1.chunk.js",
+    "static/media/woodmart-font.svg": "/woodmart-ecommerce/static/media/woodmart-font.5a351c5ca1be28d37ca9.svg",
+    "static/media/woodmart-font.eot": "/woodmart-ecommerce/static/media/woodmart-font.b645a790ea5d7e8e2979.eot",
+    "static/media/woodmart-font.woff": "/woodmart-ecommerce/static/media/woodmart-font.8a31e31e8cf3cdd9dbf5.woff",
+    "static/media/woodmart-font.ttf": "/woodmart-ecommerce/static/media/woodmart-font.960fb3a5a0d1bcf026b1.ttf",
+    "static/media/woodmart-font.woff2": "/woodmart-ecommerce/static/media/woodmart-font.a7466454c7165574b808.woff2",
+    "static/media/browsCat03.svg": "/woodmart-ecommerce/static/media/browsCat03.f5b4785cb53f45d28261.svg",
+    "static/media/browsCat07.svg": "/woodmart-ecommerce/static/media/browsCat07.341f108db5520c0c9c10.svg",
+    "static/media/browsCat05.svg": "/woodmart-ecommerce/static/media/browsCat05.98df213d3231819824c2.svg",
+    "static/media/browsCat11.svg": "/woodmart-ecommerce/static/media/browsCat11.de69fc1a23c9e4e9ea3f.svg",
+    "static/media/browsCat08.svg": "/woodmart-ecommerce/static/media/browsCat08.3bb3e1ba23bfca4027cd.svg",
+    "static/media/browsCat04.svg": "/woodmart-ecommerce/static/media/browsCat04.9608c966023effdb99c0.svg",
+    "static/media/browsCat02.svg": "/woodmart-ecommerce/static/media/browsCat02.0cb9c40082bf08ded706.svg",
+    "static/media/browsCat10.svg": "/woodmart-ecommerce/static/media/browsCat10.d4be4e7dfa3075127477.svg",
+    "static/media/browsCat06.svg": "/woodmart-ecommerce/static/media/browsCat06.9047f6859108b8d6f6ac.svg",
+    "static/media/browsCat01.svg": "/woodmart-ecommerce/static/media/browsCat01.e389338be1641cd9b907.svg",
+    "static/media/support.svg": "/woodmart-ecommerce/static/media/support.61a4b409d00a4ddc137a.svg",
+    "static/media/browsCat09.svg": "/woodmart-ecommerce/static/media/browsCat09.8944aaa0e7075aa7e460.svg",
+    "static/media/freeShipping.svg": "/woodmart-ecommerce/static/media/freeShipping.95487747b65cc2811bae.svg",
+    "static/media/onlinePayment.svg": "/woodmart-ecommerce/static/media/onlinePayment.c7d24f4f291d614060ad.svg",
+    "static/media/discountIcon.svg": "/woodmart-ecommerce/static/media/discountIcon.48c5094ea28bd9b22c2f.svg",
+    "static/media/freeReturns.svg": "/woodmart-ecommerce/static/media/freeReturns.f1582afaa6b725f246be.svg",
+    "static/media/basketIcon.svg": "/woodmart-ecommerce/static/media/basketIcon.f586b888724faa5c7efe.svg",
+    "index.html": "/woodmart-ecommerce/index.html",
+    "static/media/safe.svg": "/woodmart-ecommerce/static/media/safe.61a73daeeb0952339899.svg",
+    "static/media/supportIcon.svg": "/woodmart-ecommerce/static/media/supportIcon.2e04cef85b8640e8b586.svg",
+    "static/media/searchIcon.svg": "/woodmart-ecommerce/static/media/searchIcon.8a254503d9917c95ecc0.svg",
+    "main.09a0450f.css.map": "/woodmart-ecommerce/static/css/main.09a0450f.css.map",
+    "main.cdc1a0c8.js.map": "/woodmart-ecommerce/static/js/main.cdc1a0c8.js.map",
+    "787.5321f4d1.chunk.js.map": "/woodmart-ecommerce/static/js/787.5321f4d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09a0450f.css",
+    "static/js/main.cdc1a0c8.js"
+  ]
+}

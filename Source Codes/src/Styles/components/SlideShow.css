@@ -1,0 +1,19 @@
+#slideShow .slideShow {
+  position: relative;
+}
+#slideShow .owl-dots {
+  margin-top: -50px;
+  z-index: 999999999;
+  position: absolute;
+  left: auto;
+  right: auto;
+  width: 100%;
+}
+
+@media (min-width: 468px) {
+  .slideShow .owl-item img {
+    min-height: 450px;
+  }
+}
+
+/*# sourceMappingURL=SlideShow.css.map */

@@ -1,0 +1,29 @@
+#discountBanner {
+  color: #fff;
+  background: #439665 !important;
+  padding: 35px;
+}
+#discountBanner .title {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+#discountBanner .content {
+  font-size: 0.9em;
+}
+#discountBanner .content:before {
+  background: url("/public/img/discountIcon.svg") no-repeat;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  content: "";
+  float: left;
+}
+#discountBanner h5 {
+  font-weight: bold;
+}
+#discountBanner .socialNetworks ul li {
+  list-style: none;
+}
+
+/*# sourceMappingURL=DiscountBanner.css.map */

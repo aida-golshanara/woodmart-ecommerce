@@ -1,0 +1,50 @@
+.socialIcons{
+  ul{
+    li{
+      a{
+        i{
+          width: 35px;
+          height: 35px;
+          display: inline-block;
+          border-radius: 50%;
+          position: relative;
+          line-height: 30px;
+          text-align: center;
+          font-style: normal;
+          border: 2px solid #000;
+          &:before{
+            content: "";
+            position: relative;
+            line-height: 30px;
+            text-align: center;
+            font-style: normal;
+            top: 0px;
+            padding-bottom: 5px;
+          }
+        }
+      }
+    }
+  }
+  .icoFb:before{content: '\f180'}
+  .icoTw:before{content: '\f154'}
+  .icoPin:before{content: '\f156'}
+  .icoLink:before{content: '\f158'}
+  .icoTel:before{content: '\f179'}
+}
+
+.socialIcons{
+  &.gray{
+    i{
+      border-color: #ccc !important;
+      &:before{color: rgba(0,0,0,.4) !important}
+    }
+  }
+}
+.socialIcons{
+  &.white{
+    i{
+      border-color: #fff !important;
+      &:before{color: #fff !important}
+    }
+  }
+}
