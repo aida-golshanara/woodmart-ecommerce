@@ -1,3 +1,3 @@
 to run this project on your machine first download the source code folder.
-on this folder open a cmd/terminal then type NPM I
-for the last step type npm start
+or you can see this project on the link below.
+https://projects.kmagroute.com/react-js/woodmart-ecommerce/
